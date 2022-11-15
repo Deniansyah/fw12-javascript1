@@ -1,13 +1,5 @@
-// function replaceVowel(text) {
-//     const character = {a: 'o'};
-//     return console.log(text.replace(/[a]/g, (c) => character [c]));
-// }
-
-// replaceVowel('jakarta');
-
-function replaceVowel (text) {
-    var cek = typeof ''
-    if (typeof text == cek) {
+function replaceA (text) {
+    if (typeof text == "string") {
         let result = '';
         for (let i = 0; i < text.length; i++) {
             if (text[i] === 'a') {
@@ -22,4 +14,41 @@ function replaceVowel (text) {
     }
 }
 
-replaceVowel('jakarta');
+replaceA('jakarta');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function replaceVowel(text) {
+//     const character = {a: 'o'};
+//     return console.log(text.replace(/[a]/g, (c) => character [c]));
+// }
+
+// replaceVowel('jakarta');

@@ -1,11 +1,3 @@
-// function palindrome(text) {
-//     let proses1 = text.toLowerCase();
-//     let proses2 = proses1.split('').reverse().join('');
-// return proses1 == proses2 ? "palindrome" : "is not a palindrome";
-// }
-// console.log(palindrome('malam'))
-// console.log(palindrome('Deniansyah'))
-
 function palindrome (text) {
     if (text.length > 2) {
         let result = "";
@@ -18,4 +10,52 @@ function palindrome (text) {
     }
 }
 
-palindrome('takut');
+palindrome('taat');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function palindrome(text) {
+//     let proses1 = text.toLowerCase();
+//     let proses2 = proses1.split('').reverse().join('');
+// return proses1 == proses2 ? "palindrome" : "is not a palindrome";
+// }
+// console.log(palindrome('malam'))
+// console.log(palindrome('Deniansyah'))
